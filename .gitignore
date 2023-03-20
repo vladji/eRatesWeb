@@ -2,6 +2,7 @@
 
 README.md
 .idea
+*.d.ts
 
 # dependencies
 /node_modules
