@@ -2,7 +2,7 @@
 
 README.md
 .idea
-*.d.ts
+*.scss.d.ts
 
 # dependencies
 /node_modules
