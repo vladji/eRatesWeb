@@ -1,5 +1,5 @@
 import { useRouteError, Link } from 'react-router-dom';
-import styles from './styles.module.scss';
+import { Section } from '../../Layout/Section';
 
 export const ErrorPage = () => {
   const { statusText, message } = useRouteError() as { statusText: string; message: string } || {
@@ -8,7 +8,7 @@ export const ErrorPage = () => {
   };
 
   return (
-    <section className={styles.wrapper}>
+    <Section>
       <h1>Oops!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
       <p>
@@ -17,6 +17,6 @@ export const ErrorPage = () => {
       <Link to="/">
         Home page
       </Link>
-    </section>
+    </Section>
   );
 };

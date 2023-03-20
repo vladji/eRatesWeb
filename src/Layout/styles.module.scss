@@ -1,0 +1,9 @@
+.section {
+  padding-block: 26px;
+  padding-inline: var(--layout-padding-inline);
+}
+
+.contentWrapper {
+  max-width: 768px;
+  margin: auto;
+}
