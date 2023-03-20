@@ -5,11 +5,13 @@ import {
 } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { ErrorPage } from './pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />,
+    errorElement: <ErrorPage />
   },
   {
     path: '/privacy-policy',
