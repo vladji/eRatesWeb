@@ -24,8 +24,8 @@ export const PrivacyPolicy = () => {
         advertisements.
       </p>
       <p>
-        You may wish to review&nbsp;
-        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s Privacy Policy</a>.
+        You may wish to review&nbsp;<a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google’s
+        Privacy Policy</a>.
       </p>
       <h2>
         Your Consent
