@@ -7,9 +7,9 @@ export const Home = () => {
   return (
     <Layout>
       <Section>
-        <Link className={styles.link} to="/privacy-policy">
-          Privacy Policy
-        </Link>
+        {/*<Link className={styles.link} to="/privacy-policy">*/}
+        {/*  Privacy Policy*/}
+        {/*</Link>*/}
         <Link className={styles.link} to="/contacts">
           Contact Us
         </Link>

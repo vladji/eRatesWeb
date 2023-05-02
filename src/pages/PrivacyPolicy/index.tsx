@@ -7,7 +7,7 @@ export const PrivacyPolicy = () => {
   return (
     <Layout>
       <Section>
-        <Content>
+        <Content className={styles.content}>
           <h1 className={styles.title}>Privacy Policy</h1>
           <p>
             This policy applies to all information that is collected or submitted through the eRates mobile application
