@@ -4,7 +4,7 @@ import { Section } from '../../components/UI/Section';
 import { Content } from '../../components/UI/Content';
 import styles from './styles.module.scss';
 
-export const PrivacyPolicyAndroid = () => {
+export const PrivacyPolicyV2 = () => {
   return (
     <Layout>
       <Section>
@@ -164,7 +164,9 @@ export const PrivacyPolicyAndroid = () => {
             requirements help ensure the secure handling of payment information.
           </p>
           <p className={styles.mt1}>
-            The payment processors we work with are:<br />
+            The payment processors we work with are:
+          </p>
+          <p className={styles.mt1}>
             <span className={styles.bold}>Google Play In-App Payments</span><br />
             Their Privacy Policy can be viewed at&nbsp;
             <a
@@ -174,6 +176,23 @@ export const PrivacyPolicyAndroid = () => {
               href="https://www.google.com/policies/privacy/">
               https://www.google.com/policies/privacy/
             </a>
+          </p>
+          <p className={styles.mt1}>
+            <span className={styles.bold}>Apple App Store In-App Payments</span><br />
+            Their Privacy Policy can be viewed at&nbsp;
+            <a
+              className={styles.link}
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.apple.com/legal/privacy/en-ww/">
+              https://www.apple.com/legal/privacy/en-ww/
+            </a>
+          </p>
+          <p className={styles.mt1}>
+            Please note that the privacy practices of Google Play In-App Payments and Apple App Store In-App Payments
+            are governed by their respective providers' Privacy Policies. By using the payment services provided by
+            Google and Apple, you agree to their terms and conditions and acknowledge that your personal information
+            will be processed in accordance with their Privacy Policies.
           </p>
           <h3>Links to Other Sites</h3>
           <p className={styles.mt1}>
